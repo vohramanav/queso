@@ -126,8 +126,8 @@ We consider the following equation for a straight line:
 
 \be y = mx + c \ee
 
-The slope, $m$ and the y-intercept, $c$ are cosnidered to be uniformly distributed in the intervals,
-[2, 5] and [3, 7] respectively. For reference purposes, we provide an algorthm followed by the
+The slope, $m$ and the y-intercept, $c$ are considered to be uniformly distributed in the intervals,
+[2, 5] and [3, 7] respectively. For reference purposes, we provide an algorithm followed by the
 C++ code which interfaces with QUESO to generate the required data for GSA as follows.
 In order to estimate the first order effect and the total effect sensitivity indices, we solve
 the forward problem in QUESO to generate the required set of data. Specifically, we need to generate
@@ -216,7 +216,7 @@ model parameters to the quantity of interest.
 \includegraphics[width=1.0\textwidth]{sensitivity_plot.pdf}
 \end{center}
 \caption{(a) Analysis of convergence for the first order sensitivity indices for slope, $m$ and
-y-interecpt, $c$ with increasing sample size. (b) Bar-graph representation of estimates for $\mathcal{S}(\theta_{i})$
+y-intercept, $c$ with increasing sample size. (b) Bar-graph representation of estimates for $\mathcal{S}(\theta_{i})$
 based on estimators suggested by Sobol~\cite{Sobol:1990} and Saltelli~\emph{et al.}~\cite{Saltelli:2010} using 25000
 pseudo-random samples.}
 \label{fig:sensitivity}
@@ -237,7 +237,7 @@ capture the inadequacy in a model, parametric sensitivity analysis based on prio
 the stochastic parameters can potentially reduce the dimensionality of an inverse problem.
 Depending upon the nature of the problem, one can benefit from valuable insight into relative
 importance of the parameters with much fewer samples than required for convergence of the estimates as
-oberved in the case of the straight line problem discussed in this chapter.  
+observed in the case of the straight line problem discussed in this chapter.  
  
 
 
